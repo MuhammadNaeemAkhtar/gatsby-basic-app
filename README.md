@@ -86,7 +86,7 @@ In this section you:
 - Learned about Gatsby page components and sub-components
 - Learned about React “props” and reusing React components
 
-## step 3: Introduction to styling in gatsby
+## STEP 2: Introduction to styling in gatsby
 
 One of the most straightforward ways to add global styles to a site is using a global .css stylesheet.
 
@@ -125,6 +125,9 @@ Gatsby supports almost every possible styling option (if there isn’t a plugin 
 -    PostCSS
 
 and more!
+
+## STEP 3: Creating nested layout components
+
 
 ## //////////////////////////////////
 
