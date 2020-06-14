@@ -128,6 +128,8 @@ and more!
 
 ## STEP 3: Creating nested layout components
 
+In this part, you’ll learn about Gatsby plugins and creating “layout” components.
+
 
 ## //////////////////////////////////
 
