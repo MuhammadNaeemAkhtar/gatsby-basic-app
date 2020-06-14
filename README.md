@@ -1,3 +1,90 @@
+# Notes
+
+SURGE URL: http://gatsby-basic-app-mna.surge.sh/
+
+## Step 0
+
+npm install -g gatsby-cli   // To install gatsby CLI via npm it lets you to create Gatsby-powered sites quickly
+
+Note: when you install Gatsby and run it for the first time, you’ll see a short message notifying you about 
+		anonymous usage data that is being collected for Gatsby commands, you can read more about how that 
+		data is pulled out and used in the telemetry doc.
+
+gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world  //Create a new site from a starter:
+gatsby new [SITE_DIRECTORY_NAME] [URL_OF_STARTER_GITHUB_REPO]
+
+If you omit a URL from the end, Gatsby will automatically generate a site for you based on the default starter.
+
+gatsby develop //Start the development
+
+Recommend using Prettier, a tool that helps format your code to avoid errors. Search for “Prettier - Code formatter”.
+
+To summarize, in this section you:
+
+- Learned about the command line and how to use it
+- Installed and learned about Node.js and the npm CLI tool, the version control system Git, and the Gatsby CLI tool
+- Generated a new Gatsby site using the Gatsby CLI tool
+- Ran the Gatsby development server and visited your site locally
+- Downloaded a code editor
+- Installed a code formatter called Prettier
+
+These are some of the main web technologies you’ll use when building a Gatsby site:
+
+- HTML: A markup language that every web browser is able to understand. It stands for HyperText Markup Language. HTML gives your web content a universal informational structure, defining things like headings, paragraphs, and more.
+- CSS: A presentational language used to style the appearance of your web content (fonts, colors, layout, etc). It stands for Cascading Style Sheets.
+- JavaScript: A programming language that helps us make the web dynamic and interactive.
+- React: A code library (built with JavaScript) for building user interfaces. It’s the framework that Gatsby uses to build pages and structure content.
+- GraphQL: A query language that allows you to pull data into your website. It’s the interface that Gatsby uses for managing site data.
+
+
+# STEP 1.
+
+Gatsby uses hot reloading to speed up your development process. Essentially, when you’re running a Gatsby development server,
+the Gatsby site files are being “watched” in the background — any time you save a file, your changes will be immediately 
+reflected in the browser. You don’t need to hard refresh the page or restart the development server — your changes just 
+appear.
+
+Add an image. (In this case, a random image from Unsplash).
+https://source.unsplash.com/random/400x200
+
+This hybrid “HTML-in-JS” is actually a syntax extension of JavaScript, for React, called JSX
+
+You’re writing JSX, not pure HTML and JavaScript. How does the browser read that? The short answer: It doesn’t. 
+Gatsby sites come with tooling already set up to convert your source code into something that browsers can interpret.
+
+Gatsby is built on React.
+
+For external links to pages not handled by your Gatsby site, use the regular HTML <a> tag.
+
+Deploying a Gatsby site
+Gatsby is a modern site generator, which means there are no servers to set up or complicated databases to deploy. 
+Instead, the Gatsby build command produces a directory of static HTML and JavaScript files which you can deploy to a 
+static site hosting service.
+
+Gatsby Cloud is another deployment option, built by the team behind Gatsby. In the next section, 
+you’ll find instructions for deploying to Gatsby Cloud
+
+gatsby build //Next, build your site by running the following command in the terminal at the root of your site
+
+surge public/   //Then finally deploy your site by publishing the generated files to surge.sh. 
+
+For newly-created surge account, you need to verify your email with surge before publishing your site 
+(check your inbox first and verify your email).
+
+Gatsby Cloud is a platform built specifically for Gatsby sites, with features like real-time previews, 
+fast builds, and integrations with dozens of other tools. It’s the best place to build and deploy sites 
+built with Gatsby, and you can use Gatsby Cloud free for personal projects.
+
+When you created a new Gatsby project with a starter, it automatically made an initial git commit, 
+or a set of changes. Now, you can push your changes to the new remote location:
+
+## //////////////////////////////////
+
+ Auto GEnerated
+
+## //////////////////////////////////
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
