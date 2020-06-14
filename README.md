@@ -86,6 +86,46 @@ In this section you:
 - Learned about Gatsby page components and sub-components
 - Learned about React “props” and reusing React components
 
+## step 3: Introduction to styling in gatsby
+
+One of the most straightforward ways to add global styles to a site is using a global .css stylesheet.
+
+cd src
+
+mkdir styles
+
+cd styles
+
+touch global.css  //didn't work
+
+Create the gatsby-browser.js
+cd ../..
+touch gatsby-browser.js
+💡 What is gatsby-browser.js? Don’t worry about this too much and for now, just know that gatsby-browser.js is one of a handful of special files that Gatsby looks for and uses (if they exist).
+
+Note: Both CommonJS (require) and ES Module (import) syntax work here. If you’re not sure which to choose, import is usually a good default. When working with files that are only run in a Node.js environment however (like gatsby-node.js), require will need to be used.
+
+Tip: This part of the tutorial has focused on the quickest and most straightforward way to get started styling a Gatsby site — importing standard CSS files directly, using gatsby-browser.js. In most cases, the best way to add global styles is with a shared layout component. Check out the docs for more on that approach.
+
+
+In this section, you’ll create a new page component and style that page component using a CSS Module.
+You’ll notice that the file name ends with .module.css instead of the usual .css. This is how you tell Gatsby that this CSS file should be processed as a CSS module rather than plain CSS.
+
+- You’ll create a <User /> component and style that component using a CSS module.
+- Create the file for the CSS at src/pages/about-css-modules.module.css.
+- Import the new src/pages/about-css-modules.module.css file into the about-css-modules.js
+- Create a new <User /> component inline in the about-css-modules.js page component. Modify about-css-modules.js
+
+. Other CSS options
+Gatsby supports almost every possible styling option (if there isn’t a plugin yet for your favorite CSS option, please contribute one!)
+-    Typography.js
+-    Sass
+-    JSS
+-    Stylus
+-    PostCSS
+
+and more!
+
 ## //////////////////////////////////
 
  Auto Generated
