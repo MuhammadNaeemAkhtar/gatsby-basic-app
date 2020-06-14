@@ -2,7 +2,7 @@
 
 SURGE URL: http://gatsby-basic-app-mna.surge.sh/
 
-## Step 0
+## Step 0: Set up development environment
 
 npm install -g gatsby-cli   // To install gatsby CLI via npm it lets you to create Gatsby-powered sites quickly
 
@@ -37,7 +37,7 @@ These are some of the main web technologies you’ll use when building a Gatsby 
 - GraphQL: A query language that allows you to pull data into your website. It’s the interface that Gatsby uses for managing site data.
 
 
-# STEP 1.
+## STEP 1: Get to know gatsby building blocks
 
 Gatsby uses hot reloading to speed up your development process. Essentially, when you’re running a Gatsby development server,
 the Gatsby site files are being “watched” in the background — any time you save a file, your changes will be immediately 
@@ -78,9 +78,17 @@ built with Gatsby, and you can use Gatsby Cloud free for personal projects.
 When you created a new Gatsby project with a starter, it automatically made an initial git commit, 
 or a set of changes. Now, you can push your changes to the new remote location:
 
+In this section you:
+
+- Learned about Gatsby starters, and how to use them to create new projects
+- Learned about JSX syntax
+- Learned about components
+- Learned about Gatsby page components and sub-components
+- Learned about React “props” and reusing React components
+
 ## //////////////////////////////////
 
- Auto GEnerated
+ Auto Generated
 
 ## //////////////////////////////////
 
